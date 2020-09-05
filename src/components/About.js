@@ -1,12 +1,11 @@
 import React from 'react';
-import Header from './header';
+import Header from './Header';
 import Contact from './Contact';
-import data from './yourdata';
+import data from './Data';
 
-const About = () =>{
-return (
+const About = () => (
   <div>
-    <Header name={data.name} contactEmail={data.contactEmail}></Header>
+    <Header name={data.name} contactEmail={data.contactEmail} />
     <div className="about_container">
       <h1>{data.aboutTitle}</h1>
       <p>{data.aboutPara}</p>
@@ -15,10 +14,10 @@ return (
           contactEmail={data.contactEmail}
           contactPara={data.contactPara}
           socialLinks={data.social}
-        ></Contact>
+        />
       </div>
     </div>
   </div>
 );
-}
+
 export default About;

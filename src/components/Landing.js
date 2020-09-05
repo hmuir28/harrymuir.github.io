@@ -1,18 +1,18 @@
 import React from 'react';
-import Header from './header'
-import Home from './home';
+import Header from './Header';
+import Home from './Home';
 import Work from './Work';
 import Contact from './Contact';
 
-import data from './yourdata';
+import data from './Data';
 
-const Landing = ()=>{
-    return(<div className="App">
-    <Header name={data.name} contactEmail = {data.contactEmail}></Header>
-      <Home name={data.landingPageName} paragraph = {data.landingPagePara} authorImage={data.landingPageImage}></Home>
-      <Work projects={data.projects}></Work>
-      <Contact contactEmail = {data.contactEmail} contactPara= {data.contactPara} socialLinks = {data.social}></Contact>
-    </div>)
-}
+const Landing = () => (
+  <div className="App">
+    <Header name={data.name} contactEmail={data.contactEmail} />
+    <Home name={data.landingPageName} paragraph = {data.landingPagePara} authorImage={data.landingPageImage} />
+    <Work projects={data.projects} />
+    <Contact contactEmail={data.contactEmail} contactPara= {data.contactPara} socialLinks = {data.social} />
+  </div>
+);
 
-export default Landing
+export default Landing;
