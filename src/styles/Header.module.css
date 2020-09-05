@@ -2,11 +2,11 @@
 .headerContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center; 
-  width: 80vw;
-  top: 5rem;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 100%;
+  z-index: 1;
 }
 
 .headerContainer nav {

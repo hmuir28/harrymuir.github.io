@@ -6,6 +6,10 @@
   width: 40vw;
 }
 
+.homeContainer .content {
+  padding-top: 15%;
+}
+
 .homeContainer .homeHeadWrapper h1 {
   color: #fff;
   font-size: 4.5rem;

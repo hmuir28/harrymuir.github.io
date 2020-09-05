@@ -7,3 +7,13 @@
   text-align: center;
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    margin-top: 10%;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+}
