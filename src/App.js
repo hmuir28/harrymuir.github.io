@@ -4,6 +4,7 @@ import About from './components/resume/AboutMe';
 import Landing from './components/Landing';
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

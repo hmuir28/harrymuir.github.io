@@ -1,20 +1,13 @@
-.homeContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  position: relative;
-  top: 12rem;
-}
-
 .homeContainer .homeHeadWrapper {
-  position: relative;
   top:2rem;
   display: flex;
   flex-direction: column;
+  margin-top: 5em;
   width: 40vw;
 }
 
 .homeContainer .homeHeadWrapper h1 {
+  color: #fff;
   font-size: 4.5rem;
   font-family: "Montserrat";
 }
@@ -24,16 +17,15 @@
 }
 
 .homeContainer .homeHeadWrapper p {
+  color: #ffffff;
   position: relative;
-  top:-4rem;
   font-size: 2rem;
-  opacity: 0.4;
 }
 
 .homeContainer .imageContainer img {
   position: relative;
-  height: 21rem;
-  width: 22rem;
+  height: 100%;
+  width: 100%;
   top: 5rem;
 }
 
@@ -44,22 +36,22 @@
   
   .homeContainer .homeHeadWrapper {
     top: 1.5rem;
-    width: 60vw;
+    width: 100%;
   }
   
   .homeContainer .homeHeadWrapper h1 {
     font-size: 1.2rem;
+    text-align: center;
   }
   
   
   .homeContainer .homeHeadWrapper p {
+    font-size: 1.5rem;
+    text-align: center;
     top: 0rem;
-    font-size: 0.7rem;
   }
   
   .homeContainer .imageContainer img {
-    height: 10rem;
-    width: 8rem;
     top: 2rem;
   }
 }
@@ -71,7 +63,6 @@
 
   .homeContainer .homeHeadWrapper {
     top: 1.5rem;
-    width: 60vw;
   }
 
   .homeContainer .homeHeadWrapper h1 {
@@ -80,7 +71,6 @@
 
   .homeContainer .homeHeadWrapper p {
     top: 0rem;
-    font-size: 0.7rem;
   }
 
   .homeContainer .imageContainer img {

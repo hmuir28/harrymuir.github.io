@@ -2,7 +2,7 @@ const userInfo = {
   contactEmail: "harry182894@gmail.com",
   landingPageName: "Harry Muir",
   landingPagePara:
-    "Designer and front-end developer. I work as the Creative Director at WORK in India, while also taking on freelance projects that pique my interest.",
+    "Full-Stack developer with expertise in different areas such as academic research groups and IT business companies. Currently, I work as a frontend developer at a consultancy company in Costa Rica.",
   landingPageImage: "assets/profile.jpeg",
   projects: [
     {

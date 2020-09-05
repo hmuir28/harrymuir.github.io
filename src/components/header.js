@@ -8,8 +8,8 @@ const Header = ({ contactEmail }) => (
     <div className={styles.headerContainer}>
       <nav>
         <ul>
-          <li><Link to="/about">about</Link></li>
-          <li><a href={`mailto:${contactEmail}`}>contact</a></li>
+          <li><Link to="/about">Resume</Link></li>
+          <li><a href={`mailto:${contactEmail}`}>Contact</a></li>
         </ul>
       </nav>
     </div>

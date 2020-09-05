@@ -8,12 +8,12 @@ const Work = ({ projects }) => (
     <div className={styles.projectsContainer}>
       {projects.map((project) => (
       <div key={project.id}>
-        <div className="image">
+        <div className={styles.image}>
           <a href={project.url}>
             <img src={project.imageSrc} alt={project.title} />
           </a>
         </div>
-        <div className="title">
+        <div className={styles.title}>
           {project.title}
         </div>
       </div>
