@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import styles from '../styles/Header.module.css';
+
 const Header = ({ contactEmail }) => (
   <div>
-    <div className="header_container">
+    <div className={styles.headerContainer}>
       <nav>
         <ul>
           <li><Link to="/about">about</Link></li>

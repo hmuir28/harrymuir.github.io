@@ -3,7 +3,7 @@ const userInfo = {
   landingPageName: "Harry Muir",
   landingPagePara:
     "Designer and front-end developer. I work as the Creative Director at WORK in India, while also taking on freelance projects that pique my interest.",
-  landingPageImage: "assets/photo.jpg",
+  landingPageImage: "assets/profile.jpeg",
   projects: [
     {
       id: 1,

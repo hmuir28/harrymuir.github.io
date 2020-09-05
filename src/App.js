@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import About from './components/About';
+import About from './components/resume/AboutMe';
 import Landing from './components/Landing';
+
+import './App.css';
 
 function App() {
   return (

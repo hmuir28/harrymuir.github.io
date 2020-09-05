@@ -9,7 +9,7 @@ import data from './Data';
 const Landing = () => (
   <div className="App">
     <Header name={data.name} contactEmail={data.contactEmail} />
-    <Home name={data.landingPageName} paragraph = {data.landingPagePara} authorImage={data.landingPageImage} />
+    <Home name={data.landingPageName} paragraph={data.landingPagePara} authorImage={data.landingPageImage} />
     <Work projects={data.projects} />
     <Contact contactEmail={data.contactEmail} contactPara= {data.contactPara} socialLinks = {data.social} />
   </div>
