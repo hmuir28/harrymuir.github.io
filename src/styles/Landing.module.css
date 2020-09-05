@@ -1,3 +1,8 @@
+.App {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
 .landingContainer {
   margin-top: 12rem;
 }
