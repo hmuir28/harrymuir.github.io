@@ -10,8 +10,15 @@
 }
 
 .headerContainer nav {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   right: 0;
+  width: 100%;
+}
+
+.headerContainer .rightSide {
+  margin-left: auto;
 }
 
 .headerContainer h1 {
