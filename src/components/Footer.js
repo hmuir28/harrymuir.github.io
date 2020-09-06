@@ -9,7 +9,7 @@ const Footer = () => (
       <Row>
         <Col md={8} className={['mx-auto', 'text-center']}>
           <span>
-            ©2020 Made by Harry Muir.
+            ©2020 Made by <b>Harry Muir.</b>
           </span>
         </Col>
       </Row>

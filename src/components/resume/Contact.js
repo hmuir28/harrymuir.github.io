@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 
-import styles from '../styles/Contact.module.css';
+import data from '../Data';
+import styles from '../../styles/Contact.module.css';
 
-const Contact = ({ contactEmail, contactTo, socialLinks }) => (
+const { contactEmail, contactTo, social: socialLinks } = data;
+
+const Contact = () => (
   <div className={styles.contactContainer}>
     <h1>Get in touch.</h1>
     <p>{contactTo}</p>
