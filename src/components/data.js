@@ -9,8 +9,7 @@ const userInfo = {
     in the society.`
   ],
   contactEmail: "harry182894@gmail.com",
-  contactTo:
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  contactTo: `Let's talk, if you're looking for someone to help you with your idea, maybe I could be the software developer that you were looking for...`,
   jobs: [
     {
       company: 'Gorilla Logic',
@@ -146,6 +145,27 @@ const userInfo = {
       name: "Dribbble",
       url: "https://dribbble.com/chetanverma"
     }
+  ],
+  studyTitle: 'Academic Preparation',
+  studies: [
+    {
+      logo: 'assets/uam-university.jpg',
+      university: 'America University (UAM)',
+      career: 'Systems Engineering',
+      date: {
+        label: 'Time: ',
+        value: '2017/09/09 - Currently (Almost there)',
+      }
+    },
+    {
+      logo: 'assets/cuc.jpg',
+      university: 'Cartago University College (CUC)',
+      career: 'Information Technology',
+      date: {
+        label: 'Time: ',
+        value: '2013/01/09 - 2016/04/19',
+      }
+    },
   ],
   workTitle: 'Work',
 };

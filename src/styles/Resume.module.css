@@ -16,6 +16,12 @@
   color: #EBF0F1;
 }
 
+.cardContainer img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
 .resumeContainer {
   display: flex;
   flex-direction: column;
