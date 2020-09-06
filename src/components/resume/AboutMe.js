@@ -1,15 +1,15 @@
 import React from 'react';
-import data from '../Data';
 
-import styles from '../../styles/resume/AboutMe.module.css';;
+import data from '../Data';
+import styles from '../../styles/Resume.module.css';;
 
 const { aboutMeTitle, aboutMe } = data;
 
 const AboutMe = () => (
-  <div className={styles.aboutContainer}>
+  <div className={styles.resumeSection}>
     <h1>{aboutMeTitle}</h1>
-    {aboutMe.map((line) => (
-      <p>
+    {aboutMe.map((line, index) => (
+      <p key={index}>
         {line}
       </p>
     ))}

@@ -3,6 +3,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
 
 import data from '../Data';
 import styles from '../../styles/Contact.module.css';
+import withSpaceWrapper from '../wrappers/WithSpaceWrapper';
 
 const { contactEmail, contactTo, social: socialLinks } = data;
 
@@ -41,4 +42,4 @@ const Contact = () => (
   </div>
 );
 
-export default Contact;
+export default withSpaceWrapper(Contact);

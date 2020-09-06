@@ -11,9 +11,88 @@ const userInfo = {
   contactEmail: "harry182894@gmail.com",
   contactTo:
   "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  jobs: [
+    {
+      company: 'Gorilla Logic',
+      position: {
+        label: 'Position: ',
+        value: 'Web Developer',
+      },
+      since: {
+        label: 'Time: ',
+        value: '2019/07/01 - Currently',
+      },
+      description: {
+        label: 'Description: ',
+        value: `I worked for a client called JumpCloud. It's a company that securely manages and connects your users to their systems, applications, files, and networks. The product: A Directory-as-a-Service platform that provides to the IT Organizations a ton of tools to manage their own access to services in a secure way. At the beginning I was involved in both sides FE and BE as full stack then I was only involved in the FE side, creating, migrating legacy code, improving existing functionalities.`,
+      },
+      mainAchievement: {
+        label: '',
+        value: '',
+      },
+    },
+    {
+      company: 'IncluTEC',
+      position: {
+        label: 'Position: ',
+        value: 'SR Full Stack Developer',
+      },
+      since: {
+        label: 'Time: ',
+        value: '2017/04/15 - 2019/06/30',
+      },
+      description: {
+        label: 'Description: ',
+        value: `I worked in a research group called IncluTEC. It's a group focused on developing accessible software and diverse projects to help people with disabilities in order to improve their interaction with the web and daily routines through software.
+          I was working as Full Stack Developer creating software applications based on WCAG 2.0 with the main goal to achieve all the accessibility criteria as well as improving or migrating existing projects. Besides that, I performed scientist publications for research projects and planned workshops for TEC - Computer Engineering students and coworkers.`,
+      },
+      mainAchievement: {
+        label: '',
+        value: '',
+      },
+    },
+    {
+      company: 'Pernix Solutions',
+      position: {
+        label: 'Position: ',
+        value: 'Software Crafter',
+      },
+      since: {
+        label: 'Time: ',
+        value: '2016/04/03 - 2017/04/01',
+      },
+      description: {
+        label: 'Description: ',
+        value: `I worked as a consultant providing solutions based on client requirements mostly from companies located in the US . Besides that, I was in charge of performing the onboarding process to new Software Apprentices. Something interesting was that the company helped people with innovative ideas to bring up those ideas to reality by software development process and I worked on some of those ideas by developing MVPs.`,
+      },
+      mainAchievement: {
+        label: '',
+        value: '',
+      },
+    },
+    {
+      company: 'Rossmon S.A',
+      position: {
+        label: 'Position: ',
+        value: 'System Analyst',
+      },
+      since: {
+        label: 'Time: ',
+        value: '2015/01/05 - 2016/02/05',
+      },
+      description: {
+        label: 'Description: ',
+        value: 'As a system analyst, I worked mostly in government institutions as part of the company business model which was offshore outsourcing. I was in charge of maintained and delivered fatures to ICE (Electricity Costa Rican Institution) platforms.',
+      },
+      mainAchievement: {
+        label: '',
+        value: '',
+      },
+    },
+  ],
   landingPageName: "Harry Muir",
   landingPagePara:
-    "Full-Stack developer with expertise in different areas such as academic research groups and IT business companies. Currently, I work as a frontend developer at a consultancy company in Costa Rica.",
+    "Full-Stack developer with expertise in different areas such as academic research groups and IT business companies. Currently working as a frontend developer at a consultancy company in Costa Rica.",
   landingPageImage: "assets/profile.jpeg",
   projects: [
     {
@@ -68,6 +147,7 @@ const userInfo = {
       url: "https://dribbble.com/chetanverma"
     }
   ],
+  workTitle: 'Work',
 };
 
 export default userInfo;

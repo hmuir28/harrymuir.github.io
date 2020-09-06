@@ -1,3 +1,21 @@
+.cardContainer {
+  flex: 1 1 auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+.cardContainer h4 {
+  color: #ffffff;
+}
+
+.cardContainer .itemLabel {
+  color: #ffffff;
+}
+
+.cardContainer .itemValue {
+  color: #EBF0F1;
+}
+
 .resumeContainer {
   display: flex;
   flex-direction: column;
@@ -10,4 +28,30 @@
 .resumeContainer .aboutContact {
   position: relative;
   top:-20rem;
+}
+
+.resumeSection h1 {
+  color: #ffffff;
+  font-size: 5rem;
+  font-family: 'Montserrat';
+}
+
+.resumeSection p {
+  color: #ffffff;
+  position: relative;
+  font-size: 1.6rem;
+  width: 60vw;
+  opacity: 0.9;
+}
+
+.space {
+  min-height: 250px;
+}
+
+.workContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
 }
