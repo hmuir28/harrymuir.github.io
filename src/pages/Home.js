@@ -1,6 +1,6 @@
 import React from 'react';
-import WithMainTemplateWrapper from '../components/wrappers/WithMainTemplateWrapper';
-import Landing from '../components/Landing';
+import WithMainTemplateWrapper from 'components/wrappers/WithMainTemplateWrapper';
+import Landing from 'components/Landing';
 
 const Home = (props) => (<Landing {...props} />);
 

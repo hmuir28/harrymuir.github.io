@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
-import data from '../Data';
-import styles from '../../styles/Contact.module.css';
-import withSpaceWrapper from '../wrappers/WithSpaceWrapper';
+import data from 'components/Data';
+import styles from 'styles/Contact.module.css';
+import withSpaceWrapper from 'components/wrappers/WithSpaceWrapper';
 
 const { contactEmail, contactTo, social: socialLinks } = data;
 

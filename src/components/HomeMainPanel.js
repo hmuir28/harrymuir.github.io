@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
-import styles from '../styles/Home.module.css';
+import styles from 'styles/Home.module.css';
 
 const Home = ({ name, paragraph, authorImage }) => (
   <div className={styles.homeContainer}>

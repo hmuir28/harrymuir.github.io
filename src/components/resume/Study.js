@@ -1,8 +1,8 @@
 import React from 'react';
 
-import data from '../Data';
-import styles from '../../styles/Resume.module.css';
-import withSpaceWrapper from '../wrappers/WithSpaceWrapper';
+import data from 'components/Data';
+import styles from 'styles/Resume.module.css';
+import withSpaceWrapper from 'components/wrappers/WithSpaceWrapper';
 
 const { studies, studyTitle } = data;
 

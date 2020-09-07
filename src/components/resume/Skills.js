@@ -1,9 +1,9 @@
 import React from 'react';
 import SkillBar from 'react-skillbars';
 
-import data from '../Data';
-import styles from '../../styles/Resume.module.css';
-import withSpaceWrapper from '../wrappers/WithSpaceWrapper';
+import data from 'components/Data';
+import styles from 'styles/Resume.module.css';
+import withSpaceWrapper from 'components/wrappers/WithSpaceWrapper';
 
 const { categories, skillTitle } = data;
 

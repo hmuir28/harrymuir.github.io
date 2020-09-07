@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../styles/Work.module.css';
+import styles from 'styles/Work.module.css';
 
 const Work = ({ projects }) => (
   <div className={styles.workContainer}>
