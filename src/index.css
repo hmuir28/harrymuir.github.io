@@ -22,6 +22,14 @@ code {
   width: 100%;
 }
 
+.skillbar-title {
+  width: 123px !important;
+}
+
+.skillbar-percent {
+  color: rgb(0 0 0 / 75%) !important;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     font-size: 2px;

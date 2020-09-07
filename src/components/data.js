@@ -19,7 +19,7 @@ const userInfo = {
       },
       since: {
         label: 'Time: ',
-        value: '2019/07/01 - Currently',
+        value: '2019/07/01 - Present',
       },
       description: {
         label: 'Description: ',
@@ -146,6 +146,223 @@ const userInfo = {
       url: ""
     }
   ],
+  skillTitle: 'Skills',
+  categories: {
+    languages: {
+      category: 'Languages',
+      skills: [
+        {
+          type: 'Javascript',
+          level: 100,
+        },
+        {
+          type: 'CSS3',
+          level: 100,
+        },
+        {
+          type: 'HTML5',
+          level: 100,
+        },
+        {
+          type: 'XML',
+          level: 100,
+        },
+        {
+          type: 'GraphQL',
+          level: 100,
+        },
+        {
+          type: 'Typescript',
+          level: 90,
+        },
+        {
+          type: 'Java',
+          level: 90,
+        },
+        {
+          type: 'Python',
+          level: 85,
+        },
+        {
+          type: 'PL/SQL',
+          level: 85,
+        },
+        {
+          type: 'Swift',
+          level: 80,
+        },
+      ],
+    },
+    frontend: {
+      category: 'Frontend',
+      skills: [
+        {
+          type: 'Vue',
+          level: 100,
+        },
+        {
+          type: 'React',
+          level: 95,
+        },
+        {
+          type: 'Apollo Client',
+          level: 90,
+        },
+        {
+          type: 'Angular 2+',
+          level: 90,
+        },
+        {
+          type: 'AngularJS',
+          level: 85,
+        },
+        {
+          type: 'JQuery',
+          level: 85
+        },
+        {
+          type: 'Backbone',
+          level: 80
+        },
+      ],
+    },
+    backend: {
+      category: 'Backend',
+      skills: [
+        {
+          type: 'NodeJS',
+          level: 100,
+        },
+        {
+          type: 'ExpressJS',
+          level: 100,
+        },
+        {
+          type: 'Spring Boot',
+          level: 85,
+        },
+        {
+          type: 'Django',
+          level: 80,
+        },
+      ],
+    },
+    desktop: {
+      category: 'Desktop',
+      skills: [
+        {
+          type: 'Electron',
+          level: 95,
+        },
+        {
+          type: 'Java SE',
+          level: 90,
+        },
+      ],
+    },
+    mobile: {
+      category: 'Mobile',
+      skills: [
+        {
+          type: 'React Native',
+          level: 100,
+        },
+        {
+          type: 'Ionic',
+          level: 100,
+        },
+        {
+          type: 'Android',
+          level: 90,
+        },
+        {
+          type: 'iOS',
+          level: 90,
+        },
+      ],
+    },
+    relationalDB: {
+      category: 'Relational Database',
+      skills: [
+        {
+          type: 'MySQL',
+          level: 100,
+        },
+        {
+          type: 'PostgreSQL',
+          level: 95,
+        },
+        {
+          type: 'Oracle 12c',
+          level: 85,
+        },
+      ],
+    },
+    noRelationalDB: {
+      category: 'No Relational Database',
+      skills: [
+        {
+          type: 'MongoDB',
+          level: 100,
+        },
+        {
+          type: 'Firebase',
+          level: 95,
+        },
+        {
+          type: 'CouchDB',
+          level: 80,
+        }
+      ],
+    },
+    versionControl: {
+      category: 'Version Control',
+      skills: [
+        {
+          type: 'Git',
+          level: 100,
+        },
+      ],
+    },
+    cloudComputing: {
+      category: 'Cloud Computing',
+      skills: [
+        {
+          type: 'Heroku',
+          level: 100,
+        },
+        {
+          type: 'AWS',
+          level: 90,
+        },
+        {
+          type: 'GCP',
+          level: 85,
+        },
+        {
+          type: 'Azure',
+          level: 80,
+        },
+      ],
+    },
+    devOps: {
+      category: 'DevOps',
+      skills: [
+        {
+          type: 'Docker',
+          level: 100,
+        },
+        {
+          type: 'Vagrant',
+          level: 90,
+        },
+        {
+          type: 'Kubernetes',
+          level: 85,
+        },
+      ],
+    },
+  },
   studyTitle: 'Academic Preparation',
   studies: [
     {
@@ -167,7 +384,7 @@ const userInfo = {
       }
     },
   ],
-  workTitle: 'Work',
+  workTitle: 'Experience',
 };
 
 export default userInfo;
