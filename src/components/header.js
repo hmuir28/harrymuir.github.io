@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import styles from '../styles/Header.module.css';
+import styles from 'styles/Header.module.css';
 
 const Header = ({ contactEmail }) => (
   <div className={styles.headerContainer}>

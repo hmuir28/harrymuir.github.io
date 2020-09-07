@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../../styles/Resume.module.css';
+import styles from 'styles/Resume.module.css';
 
 const withSpaceWrapper = WrappedComponent => () => (
   <div>

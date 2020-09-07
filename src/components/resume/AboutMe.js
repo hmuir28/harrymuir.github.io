@@ -1,7 +1,7 @@
 import React from 'react';
 
-import data from '../Data';
-import styles from '../../styles/Resume.module.css';;
+import data from 'components/Data';
+import styles from 'styles/Resume.module.css';;
 
 const { aboutMeTitle, aboutMe } = data;
 
