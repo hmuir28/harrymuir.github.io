@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 import data from '../Data';
 import styles from '../../styles/Contact.module.css';
@@ -34,7 +34,7 @@ const Contact = () => (
         </li>
         <li>
           <a href={socialLinks[2].url}>
-            <FaCodepen />
+            <FaTwitter />
           </a>
         </li>
       </ul>

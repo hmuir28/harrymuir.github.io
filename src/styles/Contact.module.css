@@ -2,8 +2,8 @@
 .contactContainer {
   display: flex;
   flex-direction: column;
+  margin-bottom: calc(1.5em + 1.5em + 1.5em);
   position: relative;
-  top:20rem;
 }
 
 .contactContainer h1 {

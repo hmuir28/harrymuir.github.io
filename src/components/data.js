@@ -9,7 +9,7 @@ const userInfo = {
     in the society.`
   ],
   contactEmail: "harry182894@gmail.com",
-  contactTo: `Let's talk, if you're looking for someone to help you with your idea, maybe I could be the software developer that you were looking for...`,
+  contactTo: `Let's talk, if you're looking for someone to help you with your idea, maybe I'm your man!`,
   jobs: [
     {
       company: 'Gorilla Logic',
@@ -42,8 +42,8 @@ const userInfo = {
       },
       description: {
         label: 'Description: ',
-        value: `I worked in a research group called IncluTEC. It's a group focused on developing accessible software and diverse projects to help people with disabilities in order to improve their interaction with the web and daily routines through software.
-          I was working as Full Stack Developer creating software applications based on WCAG 2.0 with the main goal to achieve all the accessibility criteria as well as improving or migrating existing projects. Besides that, I performed scientist publications for research projects and planned workshops for TEC - Computer Engineering students and coworkers.`,
+        value: `IncluTEC was a group focused on developing accessible software and diverse projects to help people with disabilities in order to improve their interaction with the web and daily routines through software.
+          I worked as Full Stack Developer creating web applications based on WCAG 2.0 always keeping in mind I had to accomplish all the accessibility criteria as well as improving or migrating existing projects. Besides that, I performed scientist publications for research projects and planned workshops for TEC - Computer Engineering students and coworkers.`,
       },
       mainAchievement: {
         label: '',
@@ -135,22 +135,22 @@ const userInfo = {
   social: [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/chetanverma7/"
+      url: 'https://www.linkedin.com/in/harry-muir-camacho-5487b0101/'
     },
     {
       name: "Github",
-      url: "https://www.behance.net/chetanverma"
+      url: "https://github.com/hmuir28"
     },
     {
-      name: "Dribbble",
-      url: "https://dribbble.com/chetanverma"
+      name: "Twitter",
+      url: ""
     }
   ],
   studyTitle: 'Academic Preparation',
   studies: [
     {
       logo: 'assets/uam-university.jpg',
-      university: 'America University (UAM)',
+      university: 'American University (UAM)',
       career: 'Systems Engineering',
       date: {
         label: 'Time: ',

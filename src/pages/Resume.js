@@ -13,9 +13,7 @@ const Resume = (props) => {
       <AboutMe {...props} />
       <Work {...props} />
       <Study {...props} />
-      <div className={styles.aboutContact}>
-        <Contact />
-      </div>
+      <Contact />
     </div>
   )
 };

@@ -8,7 +8,7 @@ const Home = ({ name, paragraph, authorImage }) => (
     <Row className={styles.content}>
       <Col md={8}>
         <div className={styles.homeHeadWrapper}>
-          <h1> Hello I 'm <br></br> <span>{name}</span></h1>
+          <h1> Hey I 'm <br></br> <span>{name}</span></h1>
           <p>{paragraph}</p>
         </div>
       </Col>
