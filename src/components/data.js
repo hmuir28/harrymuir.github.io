@@ -153,7 +153,7 @@ const userInfo = {
     },
   ],
   landingPageName: "Harry Muir",
-  landingPagePara:
+  landingPageTo:
     "Full-Stack developer with expertise in different areas such as academic research groups and IT business companies. Currently working as a frontend developer at a consultancy company in Costa Rica.",
   landingPageImage: "assets/profile.jpeg",
   projects: [

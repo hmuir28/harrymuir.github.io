@@ -1,12 +1,17 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import HomeMainPanel from './HomeMainPanel';
 
+import data from 'components/Data';
+import HomeMainPanel from 'components/HomeMainPanel';
 import styles from 'styles/Landing.module.css';
 
-const Landing = ({ data }) => (
+const Landing = () => (
   <Container fluid className={styles.landingContainer}>
-    <HomeMainPanel name={data.landingPageName} paragraph={data.landingPagePara} authorImage={data.landingPageImage} />
+    <HomeMainPanel
+      name={data.landingPageName}
+      paragraph={data.landingPageTo}
+      authorImage={data.landingPageImage}
+    />
   </Container>
 );
 

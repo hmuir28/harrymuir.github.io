@@ -2,6 +2,11 @@ import React from 'react';
 import WithMainTemplateWrapper from 'components/wrappers/WithMainTemplateWrapper';
 import Landing from 'components/Landing';
 
-const Home = (props) => (<Landing {...props} />);
+const Home = () => (
+  <Landing />
+);
 
-export default WithMainTemplateWrapper(Home);
+export default WithMainTemplateWrapper({
+  WrappedComponent: Home,
+  position: 'absolute',
+});

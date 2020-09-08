@@ -22,4 +22,6 @@ const Resume = () => {
   )
 };
 
-export default withMainTemplateWrapper(Resume);
+export default withMainTemplateWrapper({
+  WrappedComponent: Resume,
+});
