@@ -3,8 +3,11 @@ import { Container, Col, Row } from 'react-bootstrap';
 
 import styles from 'styles/Footer.module.css';
 
-const Footer = () => (
-  <footer className={styles.footerContainer}>
+const Footer = ({ position = null }) => (
+  <footer
+    className={styles.footerContainer}
+    style={{ position }}
+  >
     <Container>
       <Row>
         <Col md={8} className={['mx-auto', 'text-center']}>

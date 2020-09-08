@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from 'components/resume/Contact';
 import AboutMe from 'components/resume/AboutMe';
+import Certificates from 'components/resume/Certificates';
 import Work from 'components/resume/Work';
 import Study from 'components/resume/Study';
 import Skills from 'components/resume/Skills';
@@ -14,10 +15,13 @@ const Resume = () => {
       <AboutMe />
       <Work />
       <Study />
+      <Certificates />
       <Skills />
       <Contact />
     </div>
   )
 };
 
-export default withMainTemplateWrapper(Resume);
+export default withMainTemplateWrapper({
+  WrappedComponent: Resume,
+});

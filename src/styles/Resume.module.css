@@ -22,18 +22,28 @@
   width: 100%;
 }
 
+.certificatesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.certificatesContainer .cardContainer {
+  border: 4px solid #244a847a;
+  width: 30em;
+}
+
 .resumeContainer {
   display: flex;
   flex-direction: column;
-  width: 80vw;
   justify-content: center;
-  position: relative;
-  top:10rem;
+  margin-top: 10rem;
+  width: 80vw;
 }
 
 .resumeContainer .aboutContact {
   position: relative;
-  top:-20rem;
+  top: -20rem;
 }
 
 .resumeSection h1 {
