@@ -7,6 +7,8 @@ import withSpaceWrapper from 'components/wrappers/WithSpaceWrapper';
 
 const { contactEmail, contactTo, social: socialLinks } = data;
 
+const [linkedin, github, twitter] = socialLinks;
+
 const Contact = () => (
   <div className={styles.contactContainer}>
     <h1>Get in touch.</h1>
@@ -18,22 +20,38 @@ const Contact = () => (
     <div>
       <ul>
         <li>
-          <a href={`mailto:${contactEmail}`}>
+          <a
+            href={`mailto:${contactEmail}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaEnvelope />
           </a>
         </li>
         <li>
-          <a href={socialLinks[0].url}>
+          <a 
+            href={linkedin.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin />
           </a>
         </li>
         <li>
-          <a href={socialLinks[1].url}>
+          <a 
+            href={github.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
         </li>
         <li>
-          <a href={socialLinks[2].url}>
+          <a 
+            href={twitter.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter />
           </a>
         </li>

@@ -18,7 +18,7 @@ const colors = {
 const Skills = () => (
   <section className={styles.resumeSection}>
     <h1>{skillTitle}</h1>
-    <div className={styles.skillsContainer}>
+    <div>
       {Object.keys(categories).map((key, index) => (
         <div
           className={styles.cardContainer}

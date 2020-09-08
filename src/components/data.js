@@ -8,6 +8,69 @@ const userInfo = {
     `My main professional goal is to become a machine learning engineer in order to bring innovative solutions with a disruptive impact
     in the society.`
   ],
+  certificateTitle: 'Certificates',
+  certificates: [
+    {
+      title: 'JavaScript Algorithms and Data Structures Masterclass',
+      instructor: {
+        label: 'Instructor: ',
+        value:'Colt Steele',
+      },
+      company: {
+        label: 'Company: ',
+        value: 'Udemy',
+      },
+      link: 'https://www.udemy.com/certificate/UC-3620f684-dca4-4680-8e42-d6c23e363e2d/',
+    },
+    {
+      title: 'The Modern GraphQL Bootcamp (with Node.js and Apollo)',
+      instructor: {
+        label: 'Instructor: ',
+        value: 'Andrew Mead',
+      },
+      company: {
+        label: 'Company: ',
+        value: 'Udemy',
+      },
+      link: 'https://www.udemy.com/certificate/UC-94030fa6-526d-48cf-b2fc-be06970a6bc9/',
+    },
+    {
+      title: 'Data Science Math Skills',
+      instructor: {
+        label: 'Instructor: ',
+        value: 'Duke University',
+      },
+      company: {
+        label: 'Company: ',
+        value: 'Coursera',
+      },
+      link: 'https://www.coursera.org/account/accomplishments/verify/TN4BJQFFMH3W',
+    },
+    {
+      title: 'React-Native + Redux + Redux-Saga + INSTAGRAM Clone',
+      instructor: {
+        label: 'Instructor: ',
+        value: 'Victor Martinez',
+      },
+      company: {
+        label: 'Company: ',
+        value: 'Udemy',
+      },
+      link: 'https://www.udemy.com/certificate/UC-TXXUNOB0/',
+    },
+    {
+      title: 'The Complete JavaScript Course 2020: Build Real Projects!',
+      instructor: {
+        label: 'Instructor: ',
+        value: 'Jonas Schmedtmann',
+      },
+      company: {
+        label: 'Company: ',
+        value: 'Udemy',
+      },
+      link: 'https://www.udemy.com/certificate/UC-8U99EIOU/',
+    }
+  ],
   contactEmail: "harry182894@gmail.com",
   contactTo: `Let's talk, if you're looking for someone to help you with your idea, maybe I'm your man!`,
   jobs: [

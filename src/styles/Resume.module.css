@@ -22,6 +22,17 @@
   width: 100%;
 }
 
+.certificatesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.certificatesContainer .cardContainer {
+  border: 4px solid #244a847a;
+  width: 30em;
+}
+
 .resumeContainer {
   display: flex;
   flex-direction: column;
