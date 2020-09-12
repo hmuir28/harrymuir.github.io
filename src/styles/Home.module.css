@@ -34,12 +34,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .homeContainer {
-    top: 6rem;
-  }
-  
   .homeContainer .homeHeadWrapper {
-    top: 1.5rem;
+    margin-top: 4em;
     width: 100%;
   }
   
@@ -52,7 +48,6 @@
   .homeContainer .homeHeadWrapper p {
     font-size: 1.5rem;
     text-align: center;
-    top: 0rem;
   }
   
   .homeContainer .imageContainer img {
@@ -61,25 +56,36 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width:800px) {
-  .homeContainer {
-    top: 6rem;
+  .homeContainer .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 15%;
+  }
+
+  .homeContainer .content .textCol {
+    max-width: 100%;
+  }
+
+  .homeContainer .content .imgCol {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    max-width: 100%;
   }
 
   .homeContainer .homeHeadWrapper {
-    top: 1.5rem;
+    margin-top: 4em;
+    width: 100%;
   }
 
   .homeContainer .homeHeadWrapper h1 {
-    font-size: 1.2rem;
-  }
-
-  .homeContainer .homeHeadWrapper p {
-    top: 0rem;
+    font-size: 2rem;
   }
 
   .homeContainer .imageContainer img {
-    height: 10rem;
-    width: 8rem;
+    height: 20rem;
     top: 2rem;
+    width: 20rem;
   }
 }
