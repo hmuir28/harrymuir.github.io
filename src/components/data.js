@@ -334,14 +334,6 @@ const userInfo = {
           type: 'Ionic',
           level: 100,
         },
-        {
-          type: 'Android',
-          level: 90,
-        },
-        {
-          type: 'iOS',
-          level: 90,
-        },
       ],
     },
     relationalDB: {

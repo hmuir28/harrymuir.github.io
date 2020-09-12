@@ -37,13 +37,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10rem;
   width: 80vw;
 }
 
 .resumeContainer .aboutContact {
   position: relative;
   top: -20rem;
+}
+
+.resumeSection {
+  margin-top: 10rem;
 }
 
 .resumeSection h1 {

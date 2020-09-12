@@ -1,18 +1,8 @@
-
-.headerContainer {
-  display: flex;
-  flex-direction: row;
-  position: fixed;
-  right: 0;
-  top: 15px;
-  width: 100%;
-  z-index: 1;
-}
-
 .headerContainer nav {
   display: flex;
-  flex-direction: row;
-  position: absolute;
+  flex-flow: row wrap;
+  height: 50px;
+  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -34,10 +24,15 @@
   padding-right: 2rem;
 }
 
-.headerContainer ul li a {
+.headerContainer .navbarLink {
   text-decoration: none;
-  color: white;
+  color: #ffffff !important;
   font-size: 1rem;
+}
+
+.headerContainer .navbarToggle {
+  background-color: #ffffff;
+  width: auto !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,7 +50,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width:800px){
+@media only screen and (min-width: 600px) and (max-width:800px) {
   .headerContainer {
     width: 80vw;
     top: 2rem;

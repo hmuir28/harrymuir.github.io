@@ -11,7 +11,7 @@
   .footerContainer {
     margin-top: 10%;
     padding: 20px 0;
-    position: relative;
+    position: relative !important;
     text-align: center;
     width: 100%;
   }

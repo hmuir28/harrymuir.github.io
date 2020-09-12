@@ -6,9 +6,13 @@ import data from 'components/Data';
 
 import styles from 'styles/Landing.module.css';
 
-const withMainTemplateWrapper = ({ WrappedComponent, position }) => () => (
+const withMainTemplateWrapper = ({ WrappedComponent, position, toggleStyle }) => () => (
   <div className={styles.App}>
-    <Header name={data.name} contactEmail={data.contactEmail} />
+    <Header
+      name={data.name}
+      contactEmail={data.contactEmail}
+      toggleStyle={toggleStyle}
+    />
     <WrappedComponent />
     <Footer position={position} />
   </div>
